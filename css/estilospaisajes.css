@@ -1,0 +1,155 @@
+body{
+  font-family:"Dancing Script";
+  background-color:#02010a;
+  animation:rebote 3s;
+  }
+
+@keyframes rebote{
+    0%{
+    margin-top:150%;
+    }
+    60%{
+      margin-top:5%;
+    }
+    100%{
+      margin-top:0%;
+    }
+}
+img[src$="jpg"]{
+  border:1px solid black;
+  width:100%;
+}
+div #contenido{
+  display:flex;
+  flex-direction:row;
+}
+@media(min-width:900px){
+  width:900px;
+  display:flex;
+  flex-direction:row;
+}
+@media(max-width:600px){
+  width:100%;
+  display:flex;
+  flex-direction:column;
+}
+
+#cabecera{
+  background-color:#5b7989;
+  -webkit-border-radius:10px 10px 0px 0px;
+}
+
+h1{
+  text-shadow:2px 2px 2px #02010a;
+  color:white;
+  font-size: 30px;
+}
+nav a:nth-child(2n){
+  text-decoration:none;
+}
+nav{
+  text-align: right;
+  }
+
+@media screen{
+  #cabecera{
+     display:flex;
+     flex-direction:column;
+}
+@media(max-width:600px){
+  h1 {
+    text-align: center;
+    }
+}
+@media(max-width:600px){
+  nav{
+    text-align: center;
+    }
+}
+
+
+h2{
+  text-align:center;
+  color:white;
+  font-size: :20px;
+}
+#galeria{
+  flex-direction:column;
+}
+img{
+  display:flex;
+  flex-direction:row;
+}
+
+.galeria1{
+  display: flex;
+  flex-direction: row;
+}
+@media(max-width:600px){
+  .galeria1{
+  display:flex;
+  flex-direction:column;
+}
+}
+.galeria2{
+  display: flex;
+  flex-direction: row;
+}
+
+@media(max-width:600px){
+  .galeria2{
+  display:flex;
+  flex-direction:column;
+}
+}
+
+#imagen1{
+  -webkit-filter:blur(10px);
+  filter:blur(10px);
+}
+#imagen3{
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+#imagen4{
+  -webkit-filter:sepia(90%);
+  filter:sepia(90%);
+}
+#imagen10{
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+#imagen30{
+  -webkit-filter:none;
+  filter:none;
+}
+#imagen40{
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+
+
+footer{
+  width:100%;
+  background-color:#c6d5c5;
+  -webkit-border-radius:0px 0px 10px 10px;
+
+}
+img{
+  width:10%;
+}
+
+#endpagina{
+
+  text-align: center;
+}
+.piepagina{
+  display:flex;
+  flex-direction:row;
+}
+@media(max-width:600px){
+  .piepagina{
+  display:flex;
+  flex-direction:column;
+}
+}
