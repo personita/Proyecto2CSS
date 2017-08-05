@@ -74,6 +74,8 @@ h2{
   font-size: :20px;
 }
 #galeria{
+  background-color:#d5c75f;
+  border:1px solid black;
   flex-direction:column;
 }
 img{

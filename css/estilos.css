@@ -1,8 +1,7 @@
-
 body{
   font-family:"Dancing Script";
   background-color:#02010a;
-  animation:rebote 3s;
+  animation:rebote 3s ;
   }
 
 @keyframes rebote{
@@ -124,10 +123,9 @@ nav{
 
 
 footer{
-  width:100%;
   background-color:#c6d5c5;
+  -moz-border-radius:0px 0px 10px 10px;
   -webkit-border-radius:0px 0px 10px 10px;
-
 }
 img{
   width:10%;
@@ -135,6 +133,8 @@ img{
 
 #endpagina{
   text-align: center;
+  display:flex;
+  flex-direction:column;
 }
 .piepagina{
   display:flex;
